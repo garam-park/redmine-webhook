@@ -2,7 +2,8 @@
 
 * **author** : garam park
 
-gitea 에서 push 한 후에 redmine git repository 를 자동으로 업데이트 하기 위해서 만듦.
+- gitea 에서 push 한 후에 redmine git repository 를 자동으로 업데이트 하기 위해서 만듦.
+- gitea 와 redmine 의 repository file system 을 공유한다는 전제로 만들어졌음.
 
 ## environment 변수 설정
 
