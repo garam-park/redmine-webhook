@@ -16,3 +16,8 @@ gitea 에서 push 한 후에 redmine git repository 를 자동으로 업데이�
 
 * `NODE_TLS_REJECT_UNAUTHORIZED` (opt): SSL 이 공증받았는 지 확인, default : 1. (자체인증 SSL 등 이면 `0` 으로 설정)
 
+## 호출 방법
+
+`redmine-webhook` 배포 후에 http request를 보낸다.
+
+get method, query params 에 id 값을 프로젝트 id 로 주면 해당 프로젝트 id 의 저장소를 업데이트 한다.
